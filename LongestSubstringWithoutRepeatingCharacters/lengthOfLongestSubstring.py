@@ -17,11 +17,12 @@ def lengthOfLongestSubstring(s: str) -> tuple[str, int]:
     """
     Find Longest Substring Without Repeating Characters
 
-    Parameters:
-    -
+     Parameters:
+    - s (str): The input string.
 
     Returns:
-    -
+    - tuple[str, int]: A tuple containing the longest substring without repeating characters
+      and its length.
     """
     longest_length = 0
     longest_substring = ""
