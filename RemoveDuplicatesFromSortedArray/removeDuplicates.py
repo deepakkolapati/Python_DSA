@@ -22,6 +22,7 @@ def remove_duplicates(nums: list[int]) -> int:
 
     Returns:
     - int: The length of the modified list with unique elements.
+    
     """
 
     length = len(nums)
