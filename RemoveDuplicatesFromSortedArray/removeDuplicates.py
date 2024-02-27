@@ -14,13 +14,16 @@
 
 
 def remove_duplicates(nums: list[int]) -> int:
-    """Removes duplicates from a given list of integers and updates the list in-place.
+    """
+    Removes duplicates from a given list of integers and updates the list in-place.
 
     Parameters:
     - nums (list[int]): The input list containing integers.
 
     Returns:
-    - int: The length of the modified list with unique elements. """
+    - int: The length of the modified list with unique elements.
+    """
+
     length = len(nums)
     if length <= 1:
         return length
@@ -34,4 +37,3 @@ if __name__ == "__main__":
     nums = [1, 1, 2, 3, 4, 4, 4, 4, 5, 5, 5, 8, 8, 8, 10]
     remove_duplicates(nums)
     print(nums)
-
